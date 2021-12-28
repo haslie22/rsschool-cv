@@ -1,8 +1,6 @@
 
 ## Lizaveta Dondysh
 
----
-
 ### Contact information:
 
 **Location:** Minsk, Belarus  
