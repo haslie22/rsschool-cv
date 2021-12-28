@@ -2,6 +2,7 @@
 ### Lizaveta Dondysh
 
 ---
+---
 
 #### Contact information:
 
@@ -35,13 +36,13 @@ Figma, Adobe Photoshop, Adobe Illustrator
 
 ---
 
-```
-**function** multiply(a, b) {
-  **return** a * b;
+```js
+function** multiply(a, b) {
+  return a * b;
 }  
 
-**let** result = multiply(2, 5);
-**alert**( result );
+let result = multiply(2, 5);
+alert( result );
 ```
 
 #### Work experience:
@@ -59,9 +60,9 @@ Freelance activity, mentoring
 **Student, School of Business of BSU**  
 Department of Digital Systems and Technologies
 
-[RS School Course «JavaScript/Front-end. Stage 0»] (https://rs.school/js-stage0/) (in progress)  
+[RS School Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress)  
 [Web Developer course](https://www.udemy.com/course/webdeveloper/?src=sac&kw=web) on Udemy (in progress)  
-[JavaScript + React course](https://www.udemy.com/course/javascript_full/) on Udemy (in progress)
+[JavaScript + React course](https://www.udemy.com/course/javascript_full/) on Udemy (in progress)    
 CIDR Interface Design course  
 CIDR Digital design course
 
