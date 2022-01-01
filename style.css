@@ -1,1 +1,198 @@
-/* My nice CV is to be here soon! */
+* {
+    font-family: 'Roboto', 'Nunito', sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Nunito', 'Roboto', sans-serif;
+    font-size: 65px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 42px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+p {
+    line-height: 2.25;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+.header {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    position: sticky;
+}
+
+.navigation {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation-container {
+    display: flex;
+    width: 1200px;
+    margin: 150px auto 129px auto;
+}
+
+.foto-container {
+   width: 25%;
+   margin: 0;
+   margin-right: 100px;
+
+}
+
+.foto-container img {
+    border-radius: 50%;
+    width: 240px;
+}
+
+.contacts {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.contacts h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.contacts-list {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.skills {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.skills-list {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.skills-item {
+    flex: 1 1 500px;
+    padding: 30px 0;
+    text-align: left;
+
+}
+
+.code {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.code h2 {
+    text-align: center;
+}
+
+.code-item {
+    font-family: monospace;
+}
+
+.experience {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.experience h2 {
+    text-align: center;
+}
+
+.experience-list {
+    padding: 0;
+}
+
+.languages {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience-item-after {
+    margin-bottom: 40px;
+}
+
+.languages h2 {
+    text-align: center;
+}
+
+.footer-links {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-item img {
+    width: 70px;
+    margin-left: 10px;
+    vertical-align: baseline;
+}
+
+.footer-item a img {
+    height: 27px;
+    width: 27px;
+    vertical-align: text-bottom;
+}

@@ -44,6 +44,7 @@ Freelance activity, mentoring
 
 **Student, School of Business of BSU**  
 Department of Digital Systems and Technologies
+2020 - present
 
 [RS School Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress)  
 [Web Developer course](https://www.udemy.com/course/webdeveloper/?src=sac&kw=web) on Udemy (in progress)  
