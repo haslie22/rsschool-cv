@@ -1,1 +1,1 @@
-# rsschool-cv
+https://haslie22.github.io/rsschool-cv/
