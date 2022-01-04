@@ -160,7 +160,11 @@ ul > li {
     background: #333;
     text-align: center;
     box-shadow: 0 0 25px 0 rgb(0 0 0 / 50%);
-    }
+}
+
+.contacts-item:hover {
+box-shadow: 0 12px 17px rgba(116, 116, 116, 0.12);
+}
 
 .about {
     display: flex;
@@ -209,10 +213,6 @@ ul > li {
     background: #333;
     box-shadow: 0 0 25px 0 rgb(0 0 0 / 50%);
     
-}
-
-.skills-item:hover{
-    box-shadow: 0 12px 17px rgb(0 0 0 / 12%);
 }
 
 .skills h2 {
@@ -339,18 +339,23 @@ pre {
     justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
+    width: 800px;
     margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 20px;
 }
 
-.footer-item img {
-    width: 70px;
-    margin-left: 10px;
-    vertical-align: baseline;
+.footer-item a img {
+    vertical-align: text-bottom;
 }
 
-.footer-item a img {
-    height: 27px;
+#github-logo {
     width: 27px;
-    vertical-align: text-bottom;
+    margin-left: 10px;
+}
+
+#rss-logo {
+    width: 70px;
+    margin-left: 10px;
 }
