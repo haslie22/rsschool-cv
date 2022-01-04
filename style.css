@@ -160,7 +160,11 @@ ul > li {
     background: #333;
     text-align: center;
     box-shadow: 0 0 25px 0 rgb(0 0 0 / 50%);
-    }
+}
+
+.contacts-item:hover {
+box-shadow: 0 12px 17px rgba(116, 116, 116, 0.12);
+}
 
 .about {
     display: flex;
@@ -209,10 +213,6 @@ ul > li {
     background: #333;
     box-shadow: 0 0 25px 0 rgb(0 0 0 / 50%);
     
-}
-
-.skills-item:hover{
-    box-shadow: 0 12px 17px rgb(0 0 0 / 12%);
 }
 
 .skills h2 {
