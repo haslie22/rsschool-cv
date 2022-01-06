@@ -346,19 +346,16 @@ pre {
     padding-top: 20px;
 }
 
+.footer-item a img {
+    vertical-align: text-bottom;
+}
+
 #github-logo {
-    width: 22px;
+    width: 27px;
     margin-left: 10px;
 }
 
 #rss-logo {
     width: 70px;
     margin-left: 10px;
-    
-}
-
-.footer-item a img {
-    height: 27px;
-    width: 27px;
-    vertical-align: text-bottom;
 }
