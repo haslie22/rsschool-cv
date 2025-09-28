@@ -98,17 +98,17 @@ function firstMissingPositive(nums) {
 
 ### Frontend Developer Intern
 
-**EPAM Systems**
+**EPAM Systems**  
 July 2025 - Till Now
 
 ### Activist, Developer
 
-**Rolling Scopes School**
+**Rolling Scopes School**  
 March 2023 - Till Now
 
 ### UX/UI Designer, Graphic Designer
 
-**Freelance**
+**Freelance**  
 October 2020 - September 2025
 
 ## 📚 Education and courses
