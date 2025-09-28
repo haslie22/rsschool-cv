@@ -2,6 +2,14 @@
 @import url('styles/global.css');
 
 @import url('styles/sections/header.css');
+@import url('styles/sections/hero.css');
+@import url('styles/sections/contacts.css');
+@import url('styles/sections/about.css');
+@import url('styles/sections/skills.css');
+@import url('styles/sections/code.css');
+@import url('styles/sections/experience.css');
+@import url('styles/sections/languages.css');
+@import url('styles/sections/footer.css');
 
 /* * {
   font-family: 'Poppins', 'Helvetica', sans-serif;
@@ -114,7 +122,7 @@ a:hover {
   text-shadow: 0 0 10px rgb(141, 141, 141);
 } */
 
-.presentation-container {
+/* .presentation-container {
   display: flex;
   width: 1000px;
   margin: 160px auto 100px auto;
@@ -130,7 +138,7 @@ a:hover {
   border-radius: 50%;
   width: 260px;
   box-shadow: 0 0 25px 0 rgb(0 0 0 / 50%);
-}
+} */
 
 .contacts {
   display: flex;

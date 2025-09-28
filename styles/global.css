@@ -20,6 +20,7 @@ ul {
 
 h1 {
   font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 600;
   color: #f5f5f5;
 }
 
