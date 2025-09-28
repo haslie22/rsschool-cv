@@ -170,6 +170,16 @@
               >@haslie</a
             >
           </li>
+          <li class="contacts__item card">
+            <span class="contacts__label">Location</span>
+            <span class="contacts__link">Vilnius, Lithuania</span>
+          </li>
+          <li class="contacts__item card">
+            <span class="contacts__label">LeetCode</span>
+            <a href="https://leetcode.com/u/haslie22/" class="contacts__link"
+              >haslie22</a
+            >
+          </li>
         </ul>
       </section>
 
@@ -328,7 +338,7 @@
         </div>
       </section>
 
-      <section class="code" id="code">
+      <!-- <section class="code" id="code">
         <h2>Code example</h2>
         <pre class="code-item">
                 <code class="code-item">
@@ -346,7 +356,98 @@
             <span class="underline">here</span></a
           >
         </p>
+      </section> -->
+
+      <!-- <section class="code" id="code">
+        <h2 class="section-title">Code example</h2>
+        <pre class="code__block">
+          <code>
+            function multiply(a, b) {
+              return a * b;
+            }
+
+            let result = multiply(2, 5);
+            alert(result);
+          </code>
+        </p>
+      </section> -->
+
+      <section class="code" id="code" aria-labelledby="code-title">
+        <h2 class="code__title" id="code-title">Code Example from LeetCode</h2>
+
+        <div class="code__content">
+          <div class="code__task">
+            <div class="code__description">
+              <span class="code__label">Description:</span>
+              <p>
+                Given an unsorted integer array
+                <span class="token--variable">nums</span>. Return the smallest
+                positive integer that is not present in
+                <span class="token--variable">nums</span>.
+              </p>
+            </div>
+
+            <div class="code__constraints">
+              <span class="code__label">Constraints:</span>
+              <ul class="code__list">
+                <li class="code__item">
+                  Algorithm must run in
+                  <span class="token--keyword">O(n)</span> time.
+                </li>
+                <li class="code__item">
+                  Must use <span class="token--keyword">O(1)</span> auxiliary
+                  space.
+                </li>
+              </ul>
+            </div>
+
+            <div class="code__examples">
+              <span class="code__label">Examples:</span>
+              <ul class="code__list">
+                <li class="code__item">
+                  <b>Input:</b> nums = [1,2,0]<br />
+                  <b>Output:</b> 3<br />
+                  <b>Explanation:</b> The numbers in the range [1,2] are all in
+                  the array.
+                </li>
+                <li class="code__item">
+                  <b>Input:</b> nums = [3,4,-1,1]<br />
+                  <b>Output:</b> 2<br />
+                  <b>Explanation:</b> 1 is in the array but 2 is missing.
+                </li>
+                <li class="code__item">
+                  <b>Input:</b> nums = [7,8,9,11,12]<br />
+                  <b>Output:</b> 1<br />
+                  <b>Explanation:</b> The smallest positive integer 1 is
+                  missing.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <pre class="code__block card"><code class="code__code language-js">
+<span class="token--keyword">function</span> <span class="token--function">firstMissingPositive</span>(<span class="token--variable">nums</span>) {
+  <span class="token--keyword">const</span> l = nums.<span class="token--property">length</span>;
+
+  <span class="token--keyword">for</span> (<span class="token--keyword">let</span> i = 0; i &lt; l; i++) {
+    <span class="token--keyword">if</span> (nums[i] &lt; <span class="token--number">1</span>) nums[i] = l + <span class="token--number">2</span>;
+  }
+
+  <span class="token--keyword">for</span> (<span class="token--keyword">let</span> i = 0; i &lt; l; i++) {
+    <span class="token--keyword">const</span> index = Math.<span class="token--property">abs</span>(nums[i]) - <span class="token--number">1</span>;
+    <span class="token--keyword">if</span> (index &lt; l) nums[index] = -Math.<span class="token--property">abs</span>(nums[index]);
+  }
+
+  <span class="token--keyword">for</span> (<span class="token--keyword">let</span> i = 0; i &lt; l; i++) {
+    <span class="token--keyword">if</span> (nums[i] &gt; <span class="token--number">0</span>) <span class="token--keyword">return</span> i + <span class="token--number">1</span>;
+  }
+
+  <span class="token--keyword">return</span> l + <span class="token--number">1</span>;
+}
+    </code></pre>
+        </div>
       </section>
+
       <section class="experience" id="experience">
         <h2>Work experience and education</h2>
         <ul class="experience-list">
