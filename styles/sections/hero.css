@@ -9,6 +9,14 @@
   margin: auto;
 }
 
+.hero__subtitle {
+  font-size: 1.5rem;
+}
+
+.hero__text {
+  color: #aaa;
+}
+
 .hero__photo {
   display: flex;
   align-items: center;

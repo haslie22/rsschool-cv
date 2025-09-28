@@ -44,20 +44,20 @@ h3 {
   color: #d5d5d5;
 } */
 
-h3 + p {
-  line-height: 1.75em;
+/* h3 + p {
+  line-height: 1.75em;s
   color: #aaa;
-}
+} */
 
-h4 {
+/* h4 {
   font-size: 20px;
   font-weight: 500;
   margin: 40px auto 0 auto;
-}
+} */
 
-h4 + p {
+/* h4 + p {
   margin-top: 0;
-}
+} */
 
 b {
   font-weight: 600;
@@ -140,7 +140,7 @@ a:hover {
   box-shadow: 0 0 25px 0 rgb(0 0 0 / 50%);
 } */
 
-.contacts {
+/* .contacts {
   display: flex;
   width: 1000px;
   justify-content: space-between;
@@ -179,7 +179,7 @@ a:hover {
 
 .contacts-item:hover {
   box-shadow: 0 12px 17px rgba(116, 116, 116, 0.12);
-}
+} */
 
 .about {
   display: flex;

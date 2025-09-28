@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
@@ -25,9 +29,11 @@ h1 {
 }
 
 h2 {
+  font-family: 'Nunito', 'Roboto', sans-serif;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 500;
   text-align: center;
-  margin: 3rem 0 2rem;
+  margin-bottom: 2.5rem;
   color: #aaa;
 }
 
