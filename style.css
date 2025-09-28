@@ -1,6 +1,8 @@
 @import url('styles/reset.css');
 @import url('styles/global.css');
 
+@import url('styles/components/card.css');
+
 @import url('styles/sections/header.css');
 @import url('styles/sections/hero.css');
 @import url('styles/sections/contacts.css');
@@ -185,7 +187,7 @@ a:hover {
   margin: 100px auto 40px auto;
 } */
 
-.skills {
+/* .skills {
   width: 1000px;
   display: flex;
   flex-direction: column;
@@ -222,7 +224,7 @@ a:hover {
 
 .skills h2 {
   margin: 100px auto 40px auto;
-}
+} */
 
 .code {
   width: 1000px;
