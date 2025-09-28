@@ -1,5 +1,7 @@
 .skills {
-  padding: 0 1rem 6rem;
+  max-width: 1200px;
+  padding: 0 1.5rem 6rem;
+  margin-inline: auto;
 }
 
 .skills__group:last-of-type .skills__list {
@@ -7,15 +9,17 @@
 }
 
 .skills__list {
-  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin: 0 auto 4rem;
+  margin-bottom: 4rem;
 }
 
 .skills__item {
-  flex-basis: max-content;
+  /* flex-basis: max-content; */
+  max-width: 100%;
+  flex: 1 1 300px;
+  word-wrap: break-word;
   padding: 2rem;
 }

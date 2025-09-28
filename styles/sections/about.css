@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  padding: 0 1rem 6rem;
+  padding: 0 1.5rem 6rem;
   margin-inline: auto;
 }

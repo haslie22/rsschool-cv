@@ -1,7 +1,7 @@
 .code {
   max-width: 1200px;
   margin-inline: auto;
-  padding: 0 1rem 6rem;
+  padding: 0 1.5rem 6rem;
 }
 
 .code__content {
@@ -10,7 +10,8 @@
 }
 
 .code__task {
-  min-width: 500px;
+  flex: 0 0 500px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -41,10 +42,12 @@
 }
 
 .code__code {
-  font-family: var(--font-mono);
+  font-family: monospace;
   font-size: 0.95rem;
   line-height: 1.6;
-  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .token--keyword {
@@ -66,4 +69,18 @@
 
 .token--number {
   color: rgb(129, 168, 129); /* greenish */
+}
+
+@media (max-width: 1100px) {
+  .code__content {
+    flex-direction: column;
+  }
+
+  .code__task {
+    min-width: auto;
+  }
+
+  .code__block {
+    padding-inline: 1.5rem;
+  }
 }

@@ -5,7 +5,8 @@
 
 .footer__container {
   max-width: 1200px;
-  margin: 0 auto;
+  padding-inline: 1.5rem;
+  margin-inline: auto;
 }
 
 .footer__nav {
