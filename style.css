@@ -77,18 +77,18 @@ li b {
   color: #acbfe3;
 }
 
-ul > li {
+/* ul > li {
   list-style-type: none;
-}
+} */
 
-.colortext {
+/* .colortext {
   color: rgb(194, 185, 144);
-}
+} */
 
-.underline {
+/* .underline {
   text-decoration-line: underline;
   color: #acbfe3;
-}
+} */
 
 /* .header {
   width: 100%;
@@ -181,17 +181,9 @@ a:hover {
   box-shadow: 0 12px 17px rgba(116, 116, 116, 0.12);
 } */
 
-.about {
-  display: flex;
-  flex-direction: column;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about h2 {
+/* .about h2 {
   margin: 100px auto 40px auto;
-}
+} */
 
 .skills {
   width: 1000px;

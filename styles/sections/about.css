@@ -1,0 +1,7 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 0 1rem 6rem;
+  margin-inline: auto;
+}
