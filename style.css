@@ -1,10 +1,15 @@
-* {
+@import url('styles/reset.css');
+@import url('styles/global.css');
+
+@import url('styles/sections/header.css');
+
+/* * {
   font-family: 'Poppins', 'Helvetica', sans-serif;
   font-size: 16px;
   color: #d5d5d5;
-}
+} */
 
-body {
+/* body {
   background-color: #222;
 }
 
@@ -29,7 +34,7 @@ h3 {
   font-weight: 400;
   font-size: 24px;
   color: #d5d5d5;
-}
+} */
 
 h3 + p {
   line-height: 1.75em;
@@ -50,14 +55,14 @@ b {
   font-weight: 600;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: #acbfe3;
 }
 
 a:visited {
   color: #556788;
-}
+} */
 
 a b,
 li b {
@@ -77,7 +82,7 @@ ul > li {
   color: #acbfe3;
 }
 
-.header {
+/* .header {
   width: 100%;
   margin-top: -170px;
   padding-top: 40px;
@@ -107,7 +112,7 @@ ul > li {
 .nav-item:hover,
 a:hover {
   text-shadow: 0 0 10px rgb(141, 141, 141);
-}
+} */
 
 .presentation-container {
   display: flex;
