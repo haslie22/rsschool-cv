@@ -2,7 +2,7 @@
 
 ## ✉️ Contact information
 
-**Location:** Vilnius, Lithuania
+**Location:** Vilnius, Lithuania  
 **Email:** [lizadondysh@icloud.com](mailto:lizadondysh@icloud.com)  
 **GitHub:** [haslie22](https://github.com/haslie22)  
 **Discord:** [haslie](https://discord.com/users/911775166642679858)  
