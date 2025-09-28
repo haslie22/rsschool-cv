@@ -1,1 +1,1 @@
-https://haslie22.github.io/rsschool-cv-new/cv
+https://haslie22.github.io/rsschool-cv/cv
