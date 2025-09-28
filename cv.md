@@ -1,5 +1,7 @@
 # Lizaveta Dondysh
 
+![Author's photo](./assets/photos/image.png)
+
 ## ✉️ Contact information
 
 **Location:** Vilnius, Lithuania  
