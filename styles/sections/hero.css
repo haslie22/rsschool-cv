@@ -35,3 +35,9 @@
   max-width: 560px;
   gap: 1.5rem;
 }
+
+@media (max-width: 947px) {
+  .hero__title {
+    text-align: center;
+  }
+}

@@ -1,6 +1,6 @@
 export default class ScrollToTop {
   constructor(options = {}) {
-    this.button = document.querySelector(options.selector || '#backToTop');
+    this.button = document.querySelector(options.selector);
     this.offset = options.offset || 200;
 
     if (!this.button) {

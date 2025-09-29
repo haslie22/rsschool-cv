@@ -45,11 +45,21 @@
   width: 70px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 690px) {
   .footer__list {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    text-align: center;
+    justify-content: center;
+    gap: 10%;
+  }
+
+  .footer__item span {
+    display: none;
+  }
+
+  .footer__link::after {
+    content: none;
+  }
+
+  .footer__link:hover::after {
+    transform: none;
   }
 }
