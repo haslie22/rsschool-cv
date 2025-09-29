@@ -23,7 +23,6 @@ export default class BurgerMenu {
   toggleMenu() {
     this.burger.classList.toggle('active');
     this.nav.classList.toggle('active');
-    console.log('Burger menu toggled');
   }
 
   closeMenu() {

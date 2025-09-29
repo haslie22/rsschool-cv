@@ -1,0 +1,32 @@
+.animation-item {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+  will-change: opacity, transform;
+}
+
+.animation-item._active {
+  opacity: 1;
+  transform: none;
+}
+
+.fade-in-left {
+  transform: translateX(-60px);
+}
+
+.fade-in-right {
+  transform: translateX(60px);
+}
+
+.fade-up {
+  transform: translateY(60px);
+}
+
+.fade-in-left._active,
+.fade-in-right._active,
+.fade-up._active {
+  transform: none;
+  opacity: 1;
+}
