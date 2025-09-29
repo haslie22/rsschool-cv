@@ -1,0 +1,39 @@
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: #acbfe3;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease;
+  animation: tremble 1.5s infinite ease-in-out;
+}
+
+@keyframes tremble {
+  0%,
+  100% {
+    transform: translateX(0) rotate(0);
+  }
+  25% {
+    transform: translateX(-1px) rotate(-3deg);
+  }
+  50% {
+    transform: translateX(1px) rotate(3deg);
+  }
+  75% {
+    transform: translateX(-1px) rotate(-2deg);
+  }
+}
+
+#backToTop:hover {
+  background-color: #90a7d6;
+}

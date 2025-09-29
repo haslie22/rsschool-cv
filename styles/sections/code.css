@@ -51,24 +51,23 @@
 }
 
 .token--keyword {
-  color: rgb(141, 103, 141); /* purple */
-  font-weight: 500;
+  color: #e3acac;
 }
 
 .token--function {
-  color: rgb(192, 182, 137); /* yellow */
+  color: #e2d2a4;
 }
 
 .token--variable {
-  color: rgb(112, 136, 173); /* blue */
+  color: #acbfe3;
 }
 
 .token--property {
-  color: rgb(123, 179, 179); /* light blue */
+  color: #7bb3b3;
 }
 
 .token--number {
-  color: rgb(129, 168, 129); /* greenish */
+  color: #ace3c0;
 }
 
 @media (max-width: 1100px) {

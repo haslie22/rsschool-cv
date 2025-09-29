@@ -2,6 +2,7 @@
 @import url('styles/global.css');
 
 @import url('styles/components/card.css');
+@import url('styles/components/back-to-top.css');
 
 @import url('styles/sections/header.css');
 @import url('styles/sections/hero.css');

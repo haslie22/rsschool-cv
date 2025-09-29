@@ -10,11 +10,25 @@ body {
 }
 
 a {
+  position: relative;
   color: #acbfe3;
   text-decoration: none;
 
-  &:hover {
-    text-shadow: 0 0 10px #8d8d8d;
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background-color: #aaa;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
   }
 }
 
@@ -24,7 +38,7 @@ ul {
 
 h1 {
   font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: 600;
+  font-weight: 500;
   color: #dbdbdb; /* HSL L86 */
 }
 
@@ -47,6 +61,22 @@ h3 {
 
 .text--highlight {
   color: #c2b990;
+}
+
+.text__highlight_blue {
+  color: #acbfe3;
+}
+
+.text__highlight_red {
+  color: #e3acac;
+}
+
+.text__highlight_yellow {
+  color: #e2d2a4;
+}
+
+.text__highlight_green {
+  color: #ace3c0;
 }
 
 .text--underline {

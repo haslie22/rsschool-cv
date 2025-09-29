@@ -5,3 +5,7 @@
   padding: 0 1.5rem 6rem;
   margin-inline: auto;
 }
+
+.about__text {
+  margin-bottom: 1.5rem;
+}
