@@ -29,8 +29,12 @@
   font-size: 0.95rem;
 }
 
-.footer__item a img {
-  vertical-align: text-bottom;
+.footer__link::after {
+  content: none;
+}
+
+.footer__link:hover::after {
+  transform: none;
 }
 
 .footer__logo {
@@ -53,13 +57,5 @@
 
   .footer__note {
     display: none;
-  }
-
-  .footer__link::after {
-    content: none;
-  }
-
-  .footer__link:hover::after {
-    transform: none;
   }
 }
