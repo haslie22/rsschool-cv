@@ -50,7 +50,7 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero" aria-label="Hero Overview">
         <div class="hero__photo animation-item fade-in-left">
           <img
             class="hero__image"
@@ -74,8 +74,8 @@
           </p>
         </div>
       </section>
-      <section class="contacts animation-item fade-up" id="contacts">
-        <h2 class="contacts__title">Contact information</h2>
+      <section class="contacts animation-item fade-up" id="contacts" aria-labelledby="contacts-title">
+        <h2 class="contacts__title" id="contacts-title">Contact information</h2>
         <ul class="contacts__list">
           <li class="contacts__item card">
             <span class="contacts__label">Email</span>
@@ -115,8 +115,8 @@
           </li>
         </ul>
       </section>
-      <section class="about animation-item fade-up" id="about">
-        <h2 class="about__title">About Me</h2>
+      <section class="about animation-item fade-up" id="about" aria-labelledby="about-title">
+        <h2 class="about__title" id="about-title">About Me</h2>
         <p class="about__text text">
           I’m a
           <span class="text__highlight_blue">frontend developer</span> with a
@@ -137,11 +137,11 @@
           materials on front-end development and core programming concepts.
         </p>
       </section>
-      <section class="skills animation-item fade-up" id="skills">
-        <h2 class="section-title">Skills</h2>
+      <section class="skills animation-item fade-up" id="skills" aria-labelledby="skills-title">
+        <h2 class="section-title" id="skills-title">Skills</h2>
         <div class="skills__groups">
-          <section class="skills__group">
-            <h3 class="skills__group-title">Frontend Development</h3>
+          <section class="skills__group" id="frontend-development">
+            <h3 class="skills__group-title" id="frontend-development-title">Frontend Development</h3>
             <ul class="skills__list animation-item fade-up">
               <li class="skills__item card">
                 <b>Languages &amp; Core</b> HTML, CSS, JavaScript, TypeScript
@@ -162,8 +162,8 @@
               </li>
             </ul>
           </section>
-          <section class="skills__group">
-            <h3 class="skills__group-title">Backend Development</h3>
+          <section class="skills__group" aria-labelledby="backend-development-title">
+            <h3 class="skills__group-title" id="backend-development-title">Backend Development</h3>
             <ul class="skills__list animation-item fade-up">
               <li class="skills__item card">
                 <b>Languages &amp; Frameworks</b> Node.js, Nest.js
@@ -178,8 +178,8 @@
               <li class="skills__item card"><b>Containerization</b> Docker</li>
             </ul>
           </section>
-          <section class="skills__group">
-            <h3 class="skills__group-title">Accessibility &amp; Performance</h3>
+          <section class="skills__group" aria-labelledby="accessibility-performance-title">
+            <h3 class="skills__group-title" id="accessibility-performance-title">Accessibility &amp; Performance</h3>
             <ul class="skills__list animation-item fade-up">
               <li class="skills__item card">WCAG 2.2</li>
               <li class="skills__item card">VoiceOver</li>
@@ -188,16 +188,16 @@
               </li>
             </ul>
           </section>
-          <section class="skills__group">
-            <h3 class="skills__group-title">Development Tools</h3>
+          <section class="skills__group" aria-labelledby="development-tools-title">
+            <h3 class="skills__group-title" id="development-tools-title">Development Tools</h3>
             <ul class="skills__list animation-item fade-up">
               <li class="skills__item card">Visual Studio Code</li>
               <li class="skills__item card">Postman</li>
               <li class="skills__item card">ESLint, Prettier</li>
             </ul>
           </section>
-          <section class="skills__group">
-            <h3 class="skills__group-title">
+          <section class="skills__group" aria-labelledby="version-control-collaboration-title">
+            <h3 class="skills__group-title" id="version-control-collaboration-title">
               Version Control &amp; Collaboration
             </h3>
             <ul class="skills__list animation-item fade-up">
@@ -205,8 +205,8 @@
               <li class="skills__item card">Jira, Confluence, Trello</li>
             </ul>
           </section>
-          <section class="skills__group">
-            <h3 class="skills__group-title">Design Tools</h3>
+          <section class="skills__group" aria-labelledby="design-tools-title">
+            <h3 class="skills__group-title" id="design-tools-title">Design Tools</h3>
             <ul class="skills__list animation-item fade-up">
               <li class="skills__item card">Figma</li>
               <li class="skills__item card">
@@ -215,8 +215,8 @@
               <li class="skills__item card">Tilda, Wix</li>
             </ul>
           </section>
-          <section class="skills__group">
-            <h3 class="skills__group-title">E-commerce Platforms</h3>
+          <section class="skills__group" aria-labelledby="ecommerce-platforms-title">
+            <h3 class="skills__group-title" id="ecommerce-platforms-title">E-commerce Platforms</h3>
             <ul class="skills__list animation-item fade-up">
               <li class="skills__item card">Commercetools</li>
             </ul>
@@ -294,8 +294,8 @@
     </code></pre>
         </div>
       </section>
-      <section class="experience" id="experience">
-        <h2 class="experience__title">Work Experience</h2>
+      <section class="experience" id="experience" aria-labelledby="work-experience-title">
+        <h2 class="experience__title" id="work-experience-title">Work Experience</h2>
         <ul class="experience__list animation-item fade-up">
           <li class="experience__item card">
             <p class="experience__role">Frontend Developer Intern</p>
@@ -314,10 +314,10 @@
           </li>
         </ul>
       </section>
-      <section class="education animation-item fade-up" id="education">
-        <h2 class="education__title">Education &amp; Courses</h2>
+      <section class="education animation-item fade-up" id="education" aria-labelledby="education-title">
+        <h2 class="education__title" id="education-title">Education &amp; Courses</h2>
         <ul class="education__list animation-item fade-up">
-          <li class="education__item">
+          <li class="education__item card">
             <p class="education__program">Information Resources Management</p>
             <p class="education__organization">Belarusian State University</p>
           </li>
@@ -368,8 +368,8 @@
           </li>
         </ul>
       </section>
-      <section class="languages" id="languages">
-        <h2 class="languages__title">Languages</h2>
+      <section class="languages" id="languages" aria-labelledby="languages-title">
+        <h2 class="languages__title" id="languages-title">Languages</h2>
         <ul class="languages__list">
           <li class="languages__item">
             <p class="languages__name"><b>Russian:</b> Native</p>
@@ -434,7 +434,7 @@
     </main>
     <footer class="footer">
       <div class="footer__container">
-        <nav class="footer__nav" aria-label="Footer navigation">
+        <nav class="footer__nav" aria-label="Footer Navigation">
           <ul class="footer__list">
             <li class="footer__item">
               <a
