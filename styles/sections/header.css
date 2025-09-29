@@ -95,5 +95,14 @@
 
   .header__link {
     font-size: 1.5rem;
+    padding: 16px;
+
+    &::after {
+      content: none;
+    }
+
+    &:hover::after {
+      transform: none;
+    }
   }
 }

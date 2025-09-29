@@ -3,6 +3,7 @@ export default class BurgerMenu {
     this.burger = document.querySelector(burgerSelector);
     this.nav = document.querySelector(navSelector);
     this.links = document.querySelectorAll(linkSelector);
+    this.linkSelector = linkSelector;
 
     if (!this.burger || !this.nav) {
       console.error('BurgerMenu: elements not found');
@@ -15,9 +16,15 @@ export default class BurgerMenu {
   addEventListeners() {
     this.burger.addEventListener('click', () => this.toggleMenu());
 
-    this.links.forEach((link) =>
-      link.addEventListener('click', () => this.closeMenu()),
-    );
+    this.nav.addEventListener('click', (e) => {
+      if (e.target === this.nav) {
+        this.closeMenu();
+      }
+
+      if (e.target.closest(this.linkSelector)) {
+        this.closeMenu();
+      }
+    });
   }
 
   toggleMenu() {
