@@ -1,0 +1,17 @@
+.contacts {
+  padding: 0 1.5rem 6rem;
+}
+
+.contacts__list {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-inline: auto;
+}
+
+.contacts__label {
+  font-size: 1.25rem;
+  font-weight: 500;
+}

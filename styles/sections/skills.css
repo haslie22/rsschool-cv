@@ -1,0 +1,24 @@
+.skills {
+  max-width: 1200px;
+  padding: 0 1.5rem 6rem;
+  margin-inline: auto;
+}
+
+.skills__group:last-of-type .skills__list {
+  margin-bottom: 0;
+}
+
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.skills__item {
+  max-width: 100%;
+  flex: 1 1 300px;
+  word-wrap: break-word;
+  padding: 2rem;
+}

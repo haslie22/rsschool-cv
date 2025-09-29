@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizaveta Dondysh CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__burger burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="header__nav" id="nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#contacts">Contacts</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#about">About Me</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#skills">Skills</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#code">Code</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#experience">Experience</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#education">Education</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#languages">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero" aria-label="Hero Overview">
+        <div class="hero__photo animation-item fade-in-left">
+          <img
+            class="hero__image"
+            src="assets/photos/avatar.png"
+            alt="Photo of the website author"
+          >
+        </div>
+        <div class="hero__desc animation-item fade-in-right">
+          <h1 class="hero__title">Lizaveta Dondysh</h1>
+          <p class="hero__subtitle">
+            Design enthusiast and Frontend newcomer from Vilnius
+          </p>
+          <p class="hero__text">
+            Always ready to chat about studying at RSS and collaborate on
+            projects
+            <a
+              href="https://discord.com/users/911775166642679858"
+              class="hero__link"
+              >here</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="contacts animation-item fade-up" id="contacts" aria-labelledby="contacts-title">
+        <h2 class="contacts__title" id="contacts-title">Contact information</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item card">
+            <span class="contacts__label">Email</span>
+            <a href="mailto:lizadondysh@icloud.com" class="contacts__link"
+              >lizadondysh@icloud.com</a
+            >
+          </li>
+          <li class="contacts__item card">
+            <span class="contacts__label">GitHub</span>
+            <a href="https://github.com/haslie22" class="contacts__link"
+              >@haslie22</a
+            >
+          </li>
+          <li class="contacts__item card">
+            <span class="contacts__label">Telegram</span>
+            <a href="tg://resolve?domain=haslie22" class="contacts__link"
+              >@haslie22</a
+            >
+          </li>
+          <li class="contacts__item card">
+            <span class="contacts__label">Discord</span>
+            <a
+              href="https://discord.com/users/911775166642679858"
+              class="contacts__link"
+              >@haslie</a
+            >
+          </li>
+          <li class="contacts__item card">
+            <span class="contacts__label">Location</span>
+            <span class="contacts__link">Vilnius, Lithuania</span>
+          </li>
+          <li class="contacts__item card">
+            <span class="contacts__label">LeetCode</span>
+            <a href="https://leetcode.com/u/haslie22/" class="contacts__link"
+              >haslie22</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="about animation-item fade-up" id="about" aria-labelledby="about-title">
+        <h2 class="about__title" id="about-title">About Me</h2>
+        <p class="about__text text">
+          I’m a
+          <span class="text__highlight_blue">frontend developer</span> with a
+          solid foundation in building accessible, user-friendly web
+          applications and
+          <span class="text__highlight_red"
+            >over five years of experience as a UX/UI and graphic designer</span
+          >. My design background gives me a strong eye for usability,
+          consistency and visual detail, which I carry into development.
+        </p>
+        <p class="about__text text">
+          I’ve also contributed to an
+          <span class="text__highlight_yellow"
+            >open-source educational platform</span
+          >
+          used by thousands of students, where I improved usability, added new
+          features to enhance the learning experience and created study
+          materials on front-end development and core programming concepts.
+        </p>
+      </section>
+      <section class="skills animation-item fade-up" id="skills" aria-labelledby="skills-title">
+        <h2 class="section-title" id="skills-title">Skills</h2>
+        <div class="skills__groups">
+          <section class="skills__group" id="frontend-development">
+            <h3 class="skills__group-title" id="frontend-development-title">Frontend Development</h3>
+            <ul class="skills__list animation-item fade-up">
+              <li class="skills__item card">
+                <b>Languages &amp; Core</b> HTML, CSS, JavaScript, TypeScript
+              </li>
+              <li class="skills__item card">
+                <b>Styling &amp; UI</b> CSS Modules, Sass, Material UI, Angular
+                Material, Ant Design
+              </li>
+              <li class="skills__item card">
+                <b>Frameworks &amp; Libraries</b> React, React Router, Next.js,
+                Angular, RxJS
+              </li>
+              <li class="skills__item card">
+                <b>Build &amp; Bundling Tools</b> Webpack, Vite
+              </li>
+              <li class="skills__item card">
+                <b>Testing</b> React Testing Library, Jest
+              </li>
+            </ul>
+          </section>
+          <section class="skills__group" aria-labelledby="backend-development-title">
+            <h3 class="skills__group-title" id="backend-development-title">Backend Development</h3>
+            <ul class="skills__list animation-item fade-up">
+              <li class="skills__item card">
+                <b>Languages &amp; Frameworks</b> Node.js, Nest.js
+              </li>
+              <li class="skills__item card">
+                <b>APIs &amp; Data</b> GraphQL, REST, Prisma, Swagger / OpenAPI
+              </li>
+              <li class="skills__item card"><b>Databases</b> PostgreSQL</li>
+              <li class="skills__item card">
+                <b>Authentication &amp; Security</b> JWT
+              </li>
+              <li class="skills__item card"><b>Containerization</b> Docker</li>
+            </ul>
+          </section>
+          <section class="skills__group" aria-labelledby="accessibility-performance-title">
+            <h3 class="skills__group-title" id="accessibility-performance-title">Accessibility &amp; Performance</h3>
+            <ul class="skills__list animation-item fade-up">
+              <li class="skills__item card">WCAG 2.2</li>
+              <li class="skills__item card">VoiceOver</li>
+              <li class="skills__item card">
+                Browser DevTools (Chrome, Firefox, Safari)
+              </li>
+            </ul>
+          </section>
+          <section class="skills__group" aria-labelledby="development-tools-title">
+            <h3 class="skills__group-title" id="development-tools-title">Development Tools</h3>
+            <ul class="skills__list animation-item fade-up">
+              <li class="skills__item card">Visual Studio Code</li>
+              <li class="skills__item card">Postman</li>
+              <li class="skills__item card">ESLint, Prettier</li>
+            </ul>
+          </section>
+          <section class="skills__group" aria-labelledby="version-control-collaboration-title">
+            <h3 class="skills__group-title" id="version-control-collaboration-title">
+              Version Control &amp; Collaboration
+            </h3>
+            <ul class="skills__list animation-item fade-up">
+              <li class="skills__item card">Git, GitHub, GitLab</li>
+              <li class="skills__item card">Jira, Confluence, Trello</li>
+            </ul>
+          </section>
+          <section class="skills__group" aria-labelledby="design-tools-title">
+            <h3 class="skills__group-title" id="design-tools-title">Design Tools</h3>
+            <ul class="skills__list animation-item fade-up">
+              <li class="skills__item card">Figma</li>
+              <li class="skills__item card">
+                Adobe Photoshop, Illustrator, InDesign
+              </li>
+              <li class="skills__item card">Tilda, Wix</li>
+            </ul>
+          </section>
+          <section class="skills__group" aria-labelledby="ecommerce-platforms-title">
+            <h3 class="skills__group-title" id="ecommerce-platforms-title">E-commerce Platforms</h3>
+            <ul class="skills__list animation-item fade-up">
+              <li class="skills__item card">Commercetools</li>
+            </ul>
+          </section>
+        </div>
+      </section>
+      <section class="code" id="code" aria-labelledby="code-title">
+        <h2 class="code__title" id="code-title">Code Example from LeetCode</h2>
+        <div class="code__content">
+          <div class="code__task">
+            <div class="code__description">
+              <span class="code__label">Description:</span>
+              <p>
+                Given an unsorted integer array
+                <span class="token--variable">nums</span>. Return the smallest
+                positive integer that is not present in
+                <span class="token--variable">nums</span>.
+              </p>
+            </div>
+            <div class="code__constraints">
+              <span class="code__label">Constraints:</span>
+              <ul class="code__list">
+                <li class="code__item">
+                  Algorithm must run in
+                  <span class="token--keyword">O(n)</span> time.
+                </li>
+                <li class="code__item">
+                  Must use <span class="token--keyword">O(1)</span> auxiliary
+                  space.
+                </li>
+              </ul>
+            </div>
+            <div class="code__examples">
+              <span class="code__label">Examples:</span>
+              <ul class="code__list">
+                <li class="code__item">
+                  <b>Input:</b> nums = [1,2,0]<br>
+                  <b>Output:</b> 3<br>
+                  <b>Explanation:</b> The numbers in the range [1,2] are all in
+                  the array.
+                </li>
+                <li class="code__item">
+                  <b>Input:</b> nums = [3,4,-1,1]<br>
+                  <b>Output:</b> 2<br>
+                  <b>Explanation:</b> 1 is in the array but 2 is missing.
+                </li>
+                <li class="code__item">
+                  <b>Input:</b> nums = [7,8,9,11,12]<br>
+                  <b>Output:</b> 1<br>
+                  <b>Explanation:</b> The smallest positive integer 1 is
+                  missing.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <pre class="code__block card"><code class="code__code language-js">
+<span class="token--keyword">function</span> <span class="token--function">firstMissingPositive</span>(<span class="token--variable">nums</span>) {
+  <span class="token--keyword">const</span> l = nums.<span class="token--property">length</span>;
+
+  <span class="token--keyword">for</span> (<span class="token--keyword">let</span> i = 0; i &lt; l; i++) {
+    <span class="token--keyword">if</span> (nums[i] &lt; <span class="token--number">1</span>) nums[i] = l + <span class="token--number">2</span>;
+  }
+
+  <span class="token--keyword">for</span> (<span class="token--keyword">let</span> i = 0; i &lt; l; i++) {
+    <span class="token--keyword">const</span> index = Math.<span class="token--property">abs</span>(nums[i]) - <span class="token--number">1</span>;
+    <span class="token--keyword">if</span> (index &lt; l) nums[index] = -Math.<span class="token--property">abs</span>(nums[index]);
+  }
+
+  <span class="token--keyword">for</span> (<span class="token--keyword">let</span> i = 0; i &lt; l; i++) {
+    <span class="token--keyword">if</span> (nums[i] &gt; <span class="token--number">0</span>) <span class="token--keyword">return</span> i + <span class="token--number">1</span>;
+  }
+
+  <span class="token--keyword">return</span> l + <span class="token--number">1</span>;
+}
+    </code></pre>
+        </div>
+      </section>
+      <section class="experience" id="experience" aria-labelledby="work-experience-title">
+        <h2 class="experience__title" id="work-experience-title">Work Experience</h2>
+        <ul class="experience__list animation-item fade-up">
+          <li class="experience__item card">
+            <p class="experience__role">Frontend Developer Intern</p>
+            <p class="experience__company">EPAM Systems</p>
+            <p class="experience__date">July 2025 – Present</p>
+          </li>
+          <li class="experience__item card">
+            <p class="experience__role">Activist, Developer</p>
+            <p class="experience__company">Rolling Scopes School</p>
+            <p class="experience__date">March 2023 – Present</p>
+          </li>
+          <li class="experience__item card">
+            <p class="experience__role">UX/UI Designer, Graphic Designer</p>
+            <p class="experience__company">Freelance</p>
+            <p class="experience__date">October 2020 – September 2025</p>
+          </li>
+        </ul>
+      </section>
+      <section class="education animation-item fade-up" id="education" aria-labelledby="education-title">
+        <h2 class="education__title" id="education-title">Education &amp; Courses</h2>
+        <ul class="education__list animation-item fade-up">
+          <li class="education__item card">
+            <p class="education__program">Information Resources Management</p>
+            <p class="education__organization">Belarusian State University</p>
+          </li>
+
+          <li class="education__item card">
+            <p class="education__program">React Course</p>
+            <p class="education__organization">Hexlet</p>
+          </li>
+
+          <li class="education__item card">
+            <a
+              href="https://app.rs.school/certificate/4mbfvszb"
+              target="_blank"
+            >
+              <p class="education__program">NodeJS Course</p>
+            </a>
+            <p class="education__organization">Rolling Scopes School</p>
+          </li>
+
+          <li class="education__item card">
+            <a
+              href="https://app.rs.school/certificate/lau5254j"
+              target="_blank"
+            >
+              <p class="education__program">JS/FE Course</p>
+            </a>
+            <p class="education__organization">Rolling Scopes School</p>
+          </li>
+
+          <li class="education__item card">
+            <a
+              href="https://app.rs.school/certificate/lbck59ki"
+              target="_blank"
+            >
+              <p class="education__program">JS/FE Pre-School Course</p>
+            </a>
+            <p class="education__organization">Rolling Scopes School</p>
+          </li>
+
+          <li class="education__item card">
+            <p class="education__program">Interface Design Course</p>
+            <p class="education__organization">CIDR</p>
+          </li>
+
+          <li class="education__item card">
+            <p class="education__program">Digital Design Course</p>
+            <p class="education__organization">CIDR</p>
+          </li>
+        </ul>
+        <section class="projects" aria-label="Projects">
+          <h3 class="projects__subtitle">Take a look at the projects I’m proud of</h3>
+          <ul class="projects__list animation-item fade-up">
+            <li class="projects__item card">
+              <a href="https://github.com/haslie22/ecommerce-app" target="_blank">
+                <p class="projects__name">E-commerce App</p>
+            </a>
+            <p class="projects__type">Frontend project</p>
+          </li>
+          <li class="projects__item card">
+            <a href="https://github.com/haslie22/nodejs2024Q1-service" target="_blank">
+              <p class="projects__name">Node.js REST Service</p>
+            </a>
+            <p class="projects__type">Backend project</p>
+          </li>
+        </ul>
+        </section>
+      </section>
+      <section class="languages" id="languages" aria-labelledby="languages-title">
+        <h2 class="languages__title" id="languages-title">Languages</h2>
+        <ul class="languages__list">
+          <li class="languages__item">
+            <p class="languages__name"><b>Russian:</b> Native</p>
+            <div class="languages__progress">
+              <div
+                class="languages__bar languages__bar--russian"
+                data-width="100"
+              >
+                100%
+              </div>
+            </div>
+          </li>
+          <li class="languages__item">
+            <p class="languages__name"><b>Belarusian:</b> Native</p>
+            <div class="languages__progress">
+              <div
+                class="languages__bar languages__bar--belarusian"
+                data-width="100"
+              >
+                100%
+              </div>
+            </div>
+          </li>
+          <li class="languages__item">
+            <p class="languages__name">
+              <b>English:</b> B2+
+              <span class="languages__note">(EPAM English Test result)</span>
+            </p>
+            <div class="languages__progress">
+              <div
+                class="languages__bar languages__bar--english"
+                data-width="75"
+              >
+                75%
+              </div>
+            </div>
+          </li>
+          <li class="languages__item">
+            <p class="languages__name"><b>Italian:</b> B2</p>
+            <div class="languages__progress">
+              <div
+                class="languages__bar languages__bar--italian"
+                data-width="67"
+              >
+                67%
+              </div>
+            </div>
+          </li>
+          <li class="languages__item">
+            <p class="languages__name"><b>Lithuanian:</b> A1+</p>
+            <div class="languages__progress">
+              <div
+                class="languages__bar languages__bar--lithuanian"
+                data-width="25"
+              >
+                25%
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="footer__nav" aria-label="Footer Navigation">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a
+                class="footer__link"
+                href="https://rs.school/courses/short-track"
+                target="_blank"
+              >
+                <span class="footer__note">Made with love at </span>
+                <img
+                  class="footer__logo footer__logo--rss"
+                  src="assets/graphics/rss-logo.svg"
+                  alt="RS School logo"
+                >
+              </a>
+            </li>
+            <li class="footer__item">
+              <span>2025</span>
+            </li>
+            <li class="footer__item">
+              <a
+                class="footer__link"
+                href="https://github.com/haslie22/"
+                target="_blank"
+              >
+                <span class="footer__note">See my other projects at </span>
+                <img
+                  class="footer__logo footer__logo--github"
+                  src="assets/graphics/github-logo.svg"
+                  alt="GitHub logo"
+                >
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <button id="backToTop" title="Go to top">↑</button>
+  </body>
+</html>
