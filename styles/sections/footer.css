@@ -1,10 +1,10 @@
 .footer {
-  box-shadow: 0 -10px 12px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--shadow-footer);
   padding: 2rem 1rem;
 }
 
 .footer__container {
-  max-width: 1200px;
+  max-width: var(--max-width);
   padding-inline: 1.5rem;
   margin-inline: auto;
 }
@@ -14,6 +14,7 @@
 }
 
 .footer__list {
+  max-width: 800px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -22,19 +23,20 @@
   margin: 0 auto;
   padding: 0;
   list-style: none;
-  max-width: 800px;
 }
 
 .footer__item {
   font-size: 0.95rem;
 }
 
-.footer__link::after {
-  content: none;
-}
+.footer__link {
+  &::after {
+    content: none;
+  }
 
-.footer__link:hover::after {
-  transform: none;
+  &:hover::after {
+    transform: none;
+  }
 }
 
 .footer__logo {

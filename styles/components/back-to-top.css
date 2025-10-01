@@ -4,18 +4,22 @@
   right: 40px;
   width: 60px;
   height: 60px;
-  border: none;
-  border-radius: 50%;
-  background-color: #acbfe3;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
   display: none;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: opacity 0.3s ease;
+  font-size: 24px;
+  color: var(--color-light);
+  background-color: var(--color-link);
+  border: none;
+  border-radius: var(--radius-round);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: opacity var(--transition-speed) ease;
   animation: tremble 1.5s infinite ease-in-out;
+
+  &:hover {
+    background-color: var(--color-primary-hover);
+  }
 }
 
 @keyframes tremble {
@@ -32,8 +36,4 @@
   75% {
     transform: translateX(-1px) rotate(-2deg);
   }
-}
-
-#backToTop:hover {
-  background-color: #90a7d6;
 }

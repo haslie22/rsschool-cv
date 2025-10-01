@@ -4,9 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  max-width: 1200px;
-  padding: 9rem 1.5rem 6rem;
-  margin: auto;
+  padding-top: 9rem;
 }
 
 .hero__subtitle {
@@ -14,7 +12,7 @@
 }
 
 .hero__text {
-  color: #aaa;
+  color: var(--color-muted);
 }
 
 .hero__photo {
@@ -25,8 +23,8 @@
 
 .hero__image {
   width: 260px;
-  border-radius: 50%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: var(--radius-round);
+  box-shadow: var(--shadow-xl);
 }
 
 .hero__desc {

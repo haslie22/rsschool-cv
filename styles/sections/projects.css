@@ -1,6 +1,5 @@
 .projects {
-  max-width: 1200px;
-  margin-inline: auto;
+  padding: 0;
 }
 
 .projects__list {

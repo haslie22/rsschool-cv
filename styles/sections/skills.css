@@ -1,9 +1,3 @@
-.skills {
-  max-width: 1200px;
-  padding: 0 1.5rem 6rem;
-  margin-inline: auto;
-}
-
 .skills__group:last-of-type .skills__list {
   margin-bottom: 0;
 }
