@@ -1,9 +1,3 @@
-.education {
-  max-width: 1200px;
-  margin-inline: auto;
-  padding: 0 1.5rem 6rem;
-}
-
 .education__list {
   display: flex;
   flex-wrap: wrap;

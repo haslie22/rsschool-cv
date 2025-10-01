@@ -3,10 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #333;
-  border-radius: 30px;
+  background: var(--color-dark);
+  border-radius: var(--radius-lg);
   padding: 2rem 1rem;
   text-align: center;
   flex: 1 0 250px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--shadow-lg);
 }
