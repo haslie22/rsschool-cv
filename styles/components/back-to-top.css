@@ -1,10 +1,10 @@
 #backToTop {
+  display: none;
   position: fixed;
   bottom: 40px;
   right: 40px;
   width: 60px;
   height: 60px;
-  display: none;
   justify-content: center;
   align-items: center;
   font-size: 24px;

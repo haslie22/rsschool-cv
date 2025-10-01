@@ -19,7 +19,6 @@ export default class ScrollToTop {
   toggleVisibility() {
     if (window.scrollY > this.offset) {
       this.button.style.display = 'flex';
-      this.button.style.opacity = '1';
     } else {
       this.button.style.display = 'none';
     }
@@ -30,5 +29,13 @@ export default class ScrollToTop {
       top: 0,
       behavior: 'smooth',
     });
+
+    if (window.location.hash) {
+      history.pushState(
+        '',
+        document.title,
+        window.location.pathname + window.location.search,
+      );
+    }
   }
 }
