@@ -1,0 +1,39 @@
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: var(--color-light);
+  background-color: var(--color-link);
+  border: none;
+  border-radius: var(--radius-round);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: opacity var(--transition-speed) ease;
+  animation: tremble 1.5s infinite ease-in-out;
+
+  &:hover {
+    background-color: var(--color-primary-hover);
+  }
+}
+
+@keyframes tremble {
+  0%,
+  100% {
+    transform: translateX(0) rotate(0);
+  }
+  25% {
+    transform: translateX(-1px) rotate(-3deg);
+  }
+  50% {
+    transform: translateX(1px) rotate(3deg);
+  }
+  75% {
+    transform: translateX(-1px) rotate(-2deg);
+  }
+}

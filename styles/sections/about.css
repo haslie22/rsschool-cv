@@ -1,0 +1,8 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__text {
+  margin-bottom: 1.5rem;
+}

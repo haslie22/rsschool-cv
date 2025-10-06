@@ -1,0 +1,12 @@
+.contacts__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.contacts__label {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-light);
+}

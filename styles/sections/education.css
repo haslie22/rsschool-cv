@@ -1,0 +1,17 @@
+.education__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.education__item {
+  flex: 1 1 300px;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+
+  & p:last-of-type {
+    padding-top: 0.5rem;
+  }
+}

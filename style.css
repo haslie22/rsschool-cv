@@ -1,0 +1,19 @@
+@import url('styles/reset.css');
+@import url('styles/global.css');
+
+@import url('styles/components/card.css');
+@import url('styles/components/back-to-top.css');
+
+@import url('styles/sections/header.css');
+@import url('styles/sections/hero.css');
+@import url('styles/sections/contacts.css');
+@import url('styles/sections/about.css');
+@import url('styles/sections/skills.css');
+@import url('styles/sections/code.css');
+@import url('styles/sections/experience.css');
+@import url('styles/sections/education.css');
+@import url('styles/sections/projects.css');
+@import url('styles/sections/languages.css');
+@import url('styles/sections/footer.css');
+
+@import url('styles/animations.css');

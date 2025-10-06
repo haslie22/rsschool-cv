@@ -1,0 +1,9 @@
+.projects {
+  padding: 0;
+}
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
