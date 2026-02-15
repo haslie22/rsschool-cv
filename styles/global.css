@@ -45,6 +45,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-offset) + 1.5rem);
 }
 
 body {
@@ -129,4 +130,8 @@ h3 {
 
 .text__highlight_green {
   color: var(--color-highlight-green);
+}
+
+.no-scroll {
+  overflow: hidden;
 }

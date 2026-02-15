@@ -1,9 +1,11 @@
+import HeaderOffset from './scripts/header-offset.js';
 import BurgerMenu from './scripts/burger-menu.js';
 import ScrollToTop from './scripts/scroll-to-top.js';
 import LanguagesProgress from './scripts/languages-progress.js';
 import ViewportAnimator from './scripts/viewport-animator.js';
 
 document.addEventListener('DOMContentLoaded', () => {
+  new HeaderOffset('.header');
   new BurgerMenu('#burger', '#nav', '.header__link');
   new ScrollToTop({
     selector: '#backToTop',
