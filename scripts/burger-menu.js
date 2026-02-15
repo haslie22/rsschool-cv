@@ -1,5 +1,6 @@
 export default class BurgerMenu {
   constructor(burgerSelector, navSelector, linkSelector) {
+    this.body = document.body;
     this.burger = document.querySelector(burgerSelector);
     this.nav = document.querySelector(navSelector);
     this.links = document.querySelectorAll(linkSelector);
@@ -17,23 +18,22 @@ export default class BurgerMenu {
     this.burger.addEventListener('click', () => this.toggleMenu());
 
     this.nav.addEventListener('click', (e) => {
-      if (e.target === this.nav) {
-        this.closeMenu();
-      }
-
-      if (e.target.closest(this.linkSelector)) {
+      if (e.target === this.nav || e.target.closest(this.linkSelector)) {
         this.closeMenu();
       }
     });
   }
 
   toggleMenu() {
-    this.burger.classList.toggle('active');
+    const isActive = this.burger.classList.toggle('active');
+
     this.nav.classList.toggle('active');
+    this.body.classList.toggle('no-scroll', isActive);
   }
 
   closeMenu() {
     this.burger.classList.remove('active');
     this.nav.classList.remove('active');
+    this.body.classList.remove('no-scroll');
   }
 }
