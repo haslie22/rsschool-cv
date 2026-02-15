@@ -29,16 +29,6 @@
   font-size: 0.95rem;
 }
 
-.footer__link {
-  &::after {
-    content: none;
-  }
-
-  &:hover::after {
-    transform: none;
-  }
-}
-
 .footer__logo {
   margin-left: 10px;
 }
